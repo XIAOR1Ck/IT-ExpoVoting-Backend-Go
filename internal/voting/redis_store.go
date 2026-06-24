@@ -28,9 +28,14 @@ func (s *RedisStore) AddProjects(p *Project) error {
     if err != nil {
         return err
     }
-    
-    // Store with project ID as the field name
-    return s.rdb.HSet(ctx, key, id, val).Err()
+	if err := s.rdb.HSet(ctx, key, id, val).Err(); err != nil {
+        return err
+    }
+
+// Initialize votes counter for this project
+    votesKey := fmt.Sprintf("projects:%s:votes", id)
+    return s.rdb.Set(ctx, votesKey, 0, 0).Err() // 0 means no expiration
+ 
 }
 
 func (s *RedisStore) ListProjects() ([]Project, error) {
@@ -56,16 +61,17 @@ func (s *RedisStore) ListProjects() ([]Project, error) {
 }
 
 func (s *RedisStore) CastVote(user_id string, project_id string) error {
-	key := fmt.Sprintf("hasVote:%s", user_id)
-	ctx := context.Background()
-	projectsKey := fmt.Sprintf("projects:%s", project_id)
-	res := s.rdb.SetArgs(ctx, key, "voted", redis.SetArgs{
-		Mode: "NX",
-	})
-	ok := res.Val() == "Ok"
-	if !ok {
-		return UserAlreadyVoted
-	}
-	_, err := s.rdb.HIncrBy(ctx, projectsKey, "votes", 1).Result()
- return err
+    key := fmt.Sprintf("hasVoted:%s", user_id)
+    ctx := context.Background()
+    
+    // Check if user already voted
+    res := s.rdb.SetArgs(ctx, key, "voted", redis.SetArgs{Mode: "NX"})
+    if res.Val() != "Ok" {
+        return UserAlreadyVoted
+    }
+    
+    // Increment vote counter for the project
+    votesKey := fmt.Sprintf("projects:%s:votes", project_id)
+    _, err := s.rdb.Incr(ctx, votesKey).Result()
+    return err
 }
