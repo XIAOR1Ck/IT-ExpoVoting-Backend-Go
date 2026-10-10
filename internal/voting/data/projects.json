@@ -1,0 +1,233 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "Rakshyam(H)",
+    "members": "Aashik Gautam , Pramish Bhandari",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440001",
+    "name": "Maze Runner",
+    "members": "Nirwan Bhattarai, Sakchham Adhikari, Eli Tamang",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "name": "Smart Dustbin(H)",
+    "members": "Srijan Banstola, Prajwal Raj Ghimire, Zenish Thapa",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "name": "CommuniNepal",
+    "members": "Ayush Pokharel",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "name": "AI acclerated AR PING PONG",
+    "members": "Ashim Pokhrel, Sujan Shah, Milan Neupane",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440005",
+    "name": "Hydrobuddy(H)",
+    "members": "Paresh Lamichhane,Aakriti Bhattarai,Salina Poudel",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440006",
+    "name": "Football Analytics Intelligence Platform (FAIP)",
+    "members": "Kishor Bhandari,Mridul Subedi,Ridesh Palikhe",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440007",
+    "name": "Obstacle Avoiding Robot (H)",
+    "members": "Kishor Bhandari,Tapodev N.Neupane,Sushan Bastola",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440008",
+    "name": "Rock Paper Scissors - Hand Gesture AI Game",
+    "members": "Archana Bhattarai,Pratistha Subedi,Samika Khadka",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440009",
+    "name": "SabdaAI",
+    "members": "Krinjal Acharya,Anamol Poudel,",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544000a",
+    "name": "Student Performance Predictor",
+    "members": "Anim Malla",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544000b",
+    "name": "HealthSync",
+    "members": "Bishesh Bhandari",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544000c",
+    "name": "Image Exif data remover",
+    "members": "Safal Sharma",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544000d",
+    "name": "OptiWeb",
+    "members": "Abhishek Khadka",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544000e",
+    "name": "Fake Review Generator | ReviewCraft",
+    "members": "",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544000f",
+    "name": "Sahayog Sarathi",
+    "members": "Anupam Sangam,Ashik Chapagain,Prabin Kandel",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440010",
+    "name": "Jap-the beads counter",
+    "members": "Dilasha Nakarmi, Rosy Acharya, Samrachana Baral",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440011",
+    "name": "Automated lemon leaf disease detection",
+    "members": "Bhawana KC,Ganga Adhikari,Prasamsha Tripathi",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440012",
+    "name": "GCESGIRLSTECH",
+    "members": "Aayushma Kafle, Ankita Gurung, Jasmine Timilsine",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440013",
+    "name": "CNN Based Malware Detection",
+    "members": "Sajesh Bastola,Aashutosh Parajuli,Miraj Pahari",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440014",
+    "name": "eHajir - Smart Attendence System for Nepal",
+    "members": "Sijan Goshali,Abinash Godar",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440015",
+    "name": "SniffURL",
+    "members": "Samrachana Baral",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440016",
+    "name": "SignSpeak AI",
+    "members": "Sulov Chapai,Bibisha Poudel",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440017",
+    "name": "Laser Tag Game(H)",
+    "members": "Milan Puadel,Arjun Kumar Giri,Bishal Adhikari",
+    "organization": "PEC",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440018",
+    "name": "Buzz the wire (H)",
+    "members": "Sajin PradhanUrisha Khanal,Smriti Gurung",
+    "organization": "PEC",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440019",
+    "name": "TutorLink",
+    "members": "Saurab Khakal,Bihes Somai,Pramod Dhakal",
+    "organization": "LA GRANDEE",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544001a",
+    "name": "Suraksha360(H)",
+    "members": "Ronit Baniya Gupta,Pranesh Gurung,Meshak Budhathoki",
+    "organization": "PEC",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544001b",
+    "name": "RackTrack",
+    "members": "Anish Karki,Milan Bastola,Sandesh Subedi",
+    "organization": "WRC",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544001c",
+    "name": "Interactive gallery",
+    "members": "Priya Gurung,Dibbya Bhandari,Sitishma KC",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544001d",
+    "name": "Dentura Cloud",
+    "members": "Utsav Gaire",
+    "organization": "LA GRANDEE",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544001e",
+    "name": "PrivateCabin",
+    "members": "Pramod Dhakal,Sijan Lamichhane Magar",
+    "organization": "LA GRANDEE",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-44665544001f",
+    "name": "Automatic Farm",
+    "members": "",
+    "organization": "GCES",
+    "description": ""
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440020",
+    "name": "Smart Keylink",
+    "members": "",
+    "organization": "INFOMAX",
+    "description": ""
+  }
+]
